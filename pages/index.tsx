@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
 import Banner from "../components/Banner/Banner";
+import Navbar from "../components/NavBar/Navbar";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -13,6 +13,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1> Netflix</h1>
+      <Navbar />
       <Banner
         title="Clifford the red dog"
         subTitle="A very cute dog"
